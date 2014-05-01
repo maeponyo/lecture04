@@ -1,12 +1,12 @@
 var endSlideinFoxkeh = function(){
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 	foxkeh.setAttribute("class", "slidein");
 };
 
 var slideinFoxkehButton = document.querySelector("#slidein-foxkeh button");
-slideinFoxkehButton.addEventListener("mouseout", slideinFoxkeh);
-=======
+slideinFoxkehButton.addEventListener("click", slideinFoxkeh);
+//=======*/
 	foxkeh.setAttribute("class", "");
 };
 
@@ -19,4 +19,4 @@ var startSlideinFoxkeh = function(){
 
 var slideinFoxkehButton = document.querySelector("#slidein-foxkeh button");
 slideinFoxkehButton.addEventListener("click", startSlideinFoxkeh);
->>>>>>> origin/make_slidein_retriable
+//>>>>>>> origin/make_slidein_retriable
