@@ -1,11 +1,11 @@
 .slidein{
-	animation-duration: 5s;
+	animation-duration: 2s;
 	animation-name: slidein;
 }
 
 @keyframes slidein {
   from {
-    margin-left: 100%;
+    margin-left: 80%;
   }
 
   to {
